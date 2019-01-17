@@ -6,7 +6,7 @@ Sourcemod plugin that allows you to fiter handle dumps (sm_dump_handles).
 
 HDF provides a lot of ways how you can filter your handle dump, and by using ``sm_checkhandles -h`` you can see whole list of available arguments.
 
-To filter handle dump use ``sm_checkhandles`` command.
+To filter handle dump use ``sm_checkhandles`` command. That command is not meant to be executed by multiple clients at the same time!
 
 Feel free to submit an issue if you found one, or if you want to suggest something.
 
