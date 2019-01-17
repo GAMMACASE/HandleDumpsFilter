@@ -48,7 +48,7 @@ You can use any amount of arguments at a time, there's no limit for that. If you
 * ``sm_checkhandles -sd -st pln -mt kb`` - that will create handle dump in save directory specified in ``hdf_handledumps_savefolder`` cvar, and will filter that dump using custom sorting type ``pln`` (sort ascending by plugin name) and will use KiloBytes as memory type. Here's how output will look like:
 ![example3](https://i.imgur.com/0ARWpuG.png)
 
-* ``sm_checkhandles -c lastsaved -d handles/dump.txt -st -h -so dumpoutput.txt`` - that will create handle dump in specified directory ``handles/dump.txt`` (Note: it will not auto create directory), and will filter that dump using custom sorting type ``-h`` (sort descending by handle count), also it will compare newly created dump relative to specified one ``lastsaved`` (In that case ``lastsaved`` means that it will use dump that was last saved using ``-sd`` argument) and finally it will create file ``dumpoutput.txt`` with output. Here's how output will look like:
+* ``sm_checkhandles -c lastsaved -d handles/dump.txt -st -h -so dumpoutput.txt`` - that will create handle dump in specified directory ``handles/dump.txt`` (Note: it will not auto create directory), and will filter that dump using custom sorting type ``-h`` (sort descending by handle count), also it will compare newly created dump relative to specified one ``lastsaved`` (In that case ``lastsaved`` means that it will use dump that was last saved using ``-sd`` argument during plugin lifetime) and finally it will create file ``dumpoutput.txt`` with output. Here's how output will look like:
 ![example4](https://i.imgur.com/S7FyWm8.png)
 
 	and the ``dumpoutput.txt`` file:
