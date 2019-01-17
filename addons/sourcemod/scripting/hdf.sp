@@ -30,7 +30,7 @@ public Plugin myinfo =
 
 public void OnPluginStart()
 {
-	RegConsoleCmd("sm_checkhandles", SM_Checkhandles, "Dump all handles and print info about them, use -h to see full list of available arguments.");
+	RegAdminCmd("sm_checkhandles", SM_Checkhandles, ADMFLAG_ROOT, "Dump all handles and print info about them, use -h to see full list of available arguments.");
 	
 	g_cvMainFolder = CreateConVar("hdf_handledumps_folder", "handle_dumps/temp", "Folder where all handle dumps will be stored, path relative to game folder.");
 	g_cvSaveFolder = CreateConVar("hdf_handledumps_savefolder", "handle_dumps/save", "Folder where all handle dumps will be stored if -sd param was used.");
