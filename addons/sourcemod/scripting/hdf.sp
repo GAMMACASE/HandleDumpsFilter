@@ -3,7 +3,7 @@
 #pragma dynamic 131072
 
 #define SNAME "[HDF]"
-#define MAX_ERROR_BUFF 512
+#define MAX_ERROR_BUFF 1024
 #define FILE_BUFFER 131020
 #define MAX_READ_BYTES FILE_BUFFER - 1
 
@@ -21,7 +21,7 @@ public Plugin myinfo =
 	name = "Handle dump filter",
 	author = "GAMMA CASE",
 	description = "Filters handle dump output file",
-	version = "1.0.0",
+	version = "1.0.1",
 	url = "https://github.com/GAMMACASE/HandleDumpsFilter"
 }
 
