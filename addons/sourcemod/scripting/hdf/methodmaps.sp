@@ -125,7 +125,7 @@ methodmap Args
 			* -th - print all available memory output types;\n \
 			* -sd - save handle dump under the directory specified in hdf_handledumps_savefolder cvar;\n \
 			* -so <path to file> - save output to a specific file;\n \
-			* -c <path to file> - compare currect handle dump to another dump; (You can also use words \"lastsaved\" and \"lastcreated\" to get the appropriate files)\n \
+			* -c <path to file> - compare current handle dump to another dump; (You can also use words \"lastsaved\" and \"lastcreated\" to get the appropriate files)\n \
 			* -d <path to file> - set different path for raw handle dump;\n \
 			* -st <sort type> - set custom sort type;\n \
 			* -mt <memory type> - set custom memory output type (eg. KB, MB, GB);");
