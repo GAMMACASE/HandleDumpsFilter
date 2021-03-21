@@ -578,6 +578,7 @@ methodmap Dump
 				reg.GetSubString(2, smallbuff2, sizeof(smallbuff2), 0);
 				
 				TrimString(smallbuff);
+				ReplaceString(smallbuff, sizeof(smallbuff), "/", "\\");
 				kv.JumpToKey(smallbuff, true);
 				kv.SetString("name", smallbuff);
 				kv.JumpToKey(smallbuff2, true);

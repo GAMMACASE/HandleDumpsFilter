@@ -21,7 +21,7 @@ public Plugin myinfo =
 	name = "Handle dump filter",
 	author = "GAMMA CASE",
 	description = "Filters handle dump output file",
-	version = "1.0.1",
+	version = "1.0.2",
 	url = "https://github.com/GAMMACASE/HandleDumpsFilter"
 }
 
